@@ -1,0 +1,22 @@
+{
+  "name": "entrega-9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloezd/pruebagit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabloezd/pruebagit/issues"
+  },
+  "homepage": "https://github.com/pabloezd/pruebagit#readme",
+  "dependencies": {
+    "node-sass": "npm:sass@^1.47.0"
+  }
+}
