@@ -1,109 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Agrego el SEO -->
     <meta name="description" content="Ropa minimalista con precio accesible. Hacé click y encontrá lo que estás buscando">
     <meta name="keywords" content="Ropa, minimalista, precio, barato, minimalismo, moda">
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="./archivos/imagenes/favicon2.png">
+    <!--Agrego el framework Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Hoja de estilos-->
     <link rel="stylesheet" href="css/style.css">
     <title>Productos</title>
-</head>
-<body>
- 
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="./index.html">INICIO</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./productos.html">PRODUCTOS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contacto.html">CONTACTO</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="./redes.html">REDES</a>
-          </li>
-      </ul>
+  </head>
+
+  <body>
+  
+    <header> 
+      <h1>PALO</h1> 
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./archivos/imagenes/favicon2.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="./index.html">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+              <a class="nav-link" href="./redes.html">Redes</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
 
-      <img src="./archivos/imagenes/campera2.png" class="img-fluid" alt="Responsive image">
-      <br>
-      <h1 class="display-1">PRODUCTOS</h1>
-
-     
+    <img src="./archivos/imagenes/campera2.png" class="img-fluid" alt="Responsive image">
+    
+    <h2>PRODUCTOS</h2>
+    <!--COLOCAR TODOS LOS PRODUCTOS AQUI-->
+    <main> 
       <div class="card-deck">
         <div class="card">
           <img class="card-img-top" src="./productos/1.jpeg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Buzo Negro</h5>
+            <h3 class="card-title">Buzo Negro</h3>
             <p class="card-text">Buzo de material resistente en distintos talles.</p>
-            <p class="card-text"><small class="text-muted">Talles: S-M-L-XL</small></p>
+            <h4 class="card-text"><small class="text-muted">Talles: S-M-L-XL</small></h4>
           </div>
         </div>
         <div class="card">
           <img class="card-img-top" src="./productos/2.jpeg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Remera Verde</h5>
+            <h3 class="card-title">Remera Verde</h3>
             <p class="card-text">Estilo militar y ecológico.</p>
-            <p class="card-text"><small class="text-muted">Talles: S-M-L-XL</small></p>
+            <h4 class="card-text"><small class="text-muted">Talles: S-M-L-XL</small></h4>
           </div>
         </div>
         <div class="card">
           <img class="card-img-top" src="./productos/3.jpeg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Buzo Azul</h5>
+            <h3 class="card-title">Buzo Azul</h3>
             <p class="card-text">No pases frío nunca más!</p>
-            <p class="card-text"><small class="text-muted">Talles: S-M-L-XL</small></p>
+            <h4 class="card-text"><small class="text-muted">Talles: S-M-L-XL</small></h4>
           </div>
         </div>
       </div>
-
-      <br>
 
       <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="./productos/4.jpeg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Jean Negro</h5>
-            <p class="card-text">Es un Jean que podes usar para ir a trabajar.</p>
-            <p class="card-text"><small class="text-muted">Talles: S-M-L-XL</small></p>
+          <div class="card">
+            <img class="card-img-top" src="./productos/4.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title">Jean Negro</h3>
+              <p class="card-text">Es un Jean que podes usar para ir a trabajar.</p>
+              <h4 class="card-text"><small class="text-muted">Talles: S-M-L-XL</small></h4>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="./productos/5.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title">Campera Azul</h3>
+              <p class="card-text">Toda la facha con este producto.</p>
+              <h4 class="card-text"><small class="text-muted">Talles: S-M-L-XL</small></h4>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="./productos/6.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title">Buzo con capucha Azul</h3>
+              <p class="card-text">Más onda imposible con esta prenda.</p>
+              <h4 class="card-text"><small class="text-muted">Talles: S-M-L-XL</small></h4>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="./productos/5.jpeg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Campera Azul</h5>
-            <p class="card-text">Toda la facha con este producto.</p>
-            <p class="card-text"><small class="text-muted">Talles: S-M-L-XL</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="./productos/6.jpeg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Buzo con capucha Azul</h5>
-            <p class="card-text">Más onda imposible con esta prenda.</p>
-            <p class="card-text"><small class="text-muted">Talles: S-M-L-XL</small></p>
-          </div>
-        </div>
-      </div>
+    </main>
+        
+    <div class="alert alert-dark" role="alert">
+      <a href="#">Obtené un 10% de descuento con tu primera compra!</a>
+          
+    </div>
 
-      <br>
-      
-      <div class="alert alert-dark" role="alert">
-        Obtené un 10% de descuento con tu primera compra!
-      </div>
-
-      <blockquote class="blockquote text-center">
-        <p class="mb-0">Todos los derechos e izquierdos reservados.</p>
-        <footer class="blockquote-footer">PALO <cite title="Source Title"></cite></footer>
-      </blockquote>
+    <!--FOOTER-->
+    <blockquote class="blockquote text-center">
+      <p class="mb-0"></p>
+        <footer class="blockquote-footer">Todos los derechos e izquierdos reservados. @PALO <cite title="Source Title"></cite></footer>
+    </blockquote>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
-</body>
+  </body>
 </html>
